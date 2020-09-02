@@ -1,0 +1,11 @@
+Absolute/Relative URLs
+https://kb.iu.edu/d/abwp
+
+HTTP HTML
+https://www.youtube.com/watch?time_continue=1&v=1K64fWX5z4U&feature=emb_logo
+
+Linkedin console :
+https://www.linkedin.com/learning/http-essential-training/tools-to-see-http-in-action  
+
+google server video
+https://www.youtube.com/watch?v=XZmGGAbHqa0&feature=emb_logo
