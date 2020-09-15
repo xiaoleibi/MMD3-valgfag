@@ -1,0 +1,27 @@
+Den lokale by ungdom fodbold klub har brug for et databasesystem til at hjælpe med at registrere børn, der tilmelder sig til at spille fodbold. Der skal opbevares data på hvert hold og de børn, der spiller(player) på hvert holdet og deres forældre. Der skal også opbevares data om (træner)Coach for hvert hold. Tegn E/R crowfoot model som beskrevet nedenfor.
+ 
+Enheder, der kræves: Team, Player, Coach og forælder.Krævede attributter:Team: Team ID, teamnavn og teamfarver.Player: Player ID, Player fornavn, Player efternavn og Player alder.Coach: Coach ID, Coach-fornavn, Coach-efternavn og Coach-telefon-nummer.Forælder: Forælder ID, Forældre efternavn, forældre fornavn, telefonnummer,og adresse (gade, by og postnummer).Følgende forhold skal defineres:· Team er relateret til spilleren.· Team er relateret til Coach.· Spilleren er relateret til Forælder
+ 
+ 
+Kardinalitet
+ ·En spiller skal have en Team.
+ · En team kan have mange spillere. 
+· En spiller har kun en team
+· Et team har muligvis ikke en coach. 
+· En coach skal have et team. 
+· En Team kan have mange coaches. 
+· En coach har kun et hold. 
+· En spiller skal have en forælder. 
+· En forælder skal have en spiller.
+ · En spiller kan have mange forældre.
+  ·En forælder kan have mange spiller
+ 
+ 
+ 
+ 
+1
+Tegne et E/R diagram (crowfoot)
+
+2 
+
+Hvordan fjernes Mange til-Mange-relation
